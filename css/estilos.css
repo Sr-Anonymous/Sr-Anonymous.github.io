@@ -1,0 +1,310 @@
+@font-face {
+    font-family: 'The Simpson';
+    font-style: normal;
+    /* font-weight: 400; */
+    src: url('../fonts/Simpsonfont.ttf')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: rgb(255, 255, 153); */
+    background-color: rgb(183, 167, 168);
+}
+
+.pagina2 {
+    background-color: rgb(153, 209, 234)
+}
+
+.contenedor {
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.col20 {
+    background-color: rgb(215, 205, 214);
+    border: 3px solid black;
+    margin: 30px 0 30px 30px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col80 {
+    /* border: 3px solid black; */
+    margin: 30px 30px 30px 0px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_pag1 {
+    background-color: rgb(215, 205, 214);
+    margin: 0 0 0 -3px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    width: 100.2%;
+    height: 30%;
+    flex-grow: 1;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulares {
+    /* background-color: rgb(136, 189, 137); */
+    margin-top: 3%;
+    margin-left: 3%;
+    /* border: 3px solid black; */
+    width: 97%;
+    height: 70%;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_titulares {
+    margin-bottom: 1%;
+    width: 100%;
+    height: 8%;
+    border: 3px solid black;
+}
+
+.cajon_titulares {
+    /* background-color: rgb(136, 189, 137); */
+    width: 100%;
+    height: 92%;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+
+.col_gifs {
+    /* border: 3px solid black; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col_gifs img {
+    width: 100%;
+}
+
+.col_noticias {
+    background-color: rgb(136, 189, 137);
+    margin-right: 2%;
+    padding: 2%;
+    border: 3px solid black;
+    width: 78%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col_noticias:hover {
+    color: rgb(136, 189, 137);
+    background-color: black;
+}
+
+.col_noticias h1 {
+    overflow: hidden;
+    font-size: 500%;
+    text-align: center;
+    text-decoration: underline black;
+}
+
+.mrx {
+    width: 90%;
+}
+
+.homerx {
+    margin-bottom: 10%;
+    width: 80%;
+}
+
+.portada_mrx {
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 15px;
+    color: rgb(14, 68, 188);
+    -webkit-text-stroke: 2.5px black;
+}
+
+/* Estilos página 2 */
+
+.titulo_pag2 {
+    margin-top: 5px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px
+}
+
+.titulo h1 {
+    font-family: 'The Simpson' , sans-serif;
+    font-size: 80px;
+    letter-spacing: 15px;
+}
+
+.menu_pagina2 {
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_pagina2 a {
+    background-color: rgb(255, 255, 153);
+    border: 4px solid black;
+    padding: 5px;
+    color: black;
+    font-family: 'The Simpson' , sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu_pagina2 a:hover {
+    background-color: rgb(0, 112, 0);
+}
+
+.contenedor_gifs {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.jesus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin: 100px 0;
+}
+
+.reloj60_1 {
+    position: absolute;
+    top: 20px;
+    left: 600px;
+}
+
+.gusano1 {
+    position: absolute;
+    left: 550px;
+    top: 160px;
+}
+
+.tostadora70_1 {
+    position: absolute;
+    top: 140px;
+    left: 700px;
+}
+
+.tostadora100_1 {
+    position: absolute;
+    left: 550px;
+    top: 240px;
+}
+
+.boca1 {
+    position: absolute;
+    left: 700px;
+    top: 240px;
+}
+
+.campana60_1 {
+    position: absolute;
+    left: 590px;
+    top: 380px;
+}
+
+.reloj80_1 {
+    position: absolute;
+    top: 380px;
+    left: 690px;
+}
+
+.gusano2 {
+    position: absolute;
+    left: 540px;
+    top: 500px;
+}
+
+.tostadora70_2 {
+    position: absolute;
+    top: 40px;
+    right: 550px;
+}
+
+.gusano3 {
+    position: absolute;
+    top: 120px;
+    right: 700px;
+}
+
+.campana80 {
+    position: absolute;
+    right: 710px;
+    top: 200px;
+}
+
+.boca2 {
+    position: absolute;
+    top: 200px;
+    right: 560px;
+}
+
+.tostadora100_2 {
+    position: absolute;
+    top: 350px;
+    right: 720px;
+}
+
+.reloj60_2 {
+    position: absolute;
+    top: 400px;
+    right: 580px;
+}
+
+.visitas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media Quaries index */
+
+@media (max-width: 1420px) {
+    .portada_mrx {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 1260px) {
+    .portada_mrx {
+        font-size: 70px;
+        letter-spacing: 10px;
+    }
+}
